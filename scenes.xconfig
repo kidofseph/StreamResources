@@ -1,0 +1,1276 @@
+scenes : {
+  Scene : {
+    class : Scene
+    sources : {
+      twitter : {
+        render : 1
+        class : BitmapImageSource
+        data : {
+          path : "C:\\Users\\Marc\\Pictures\\twitter.png"
+          opacity : 100
+          color : -1
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          monitor : 0
+        }
+        cx : 292
+        cy : 66
+        x : 1452
+        y : 1007
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      last  follower log : {
+        render : 1
+        class : TextSource
+        data : {
+          baseSizeCX : 32
+          baseSizeCY : 38
+          font : Comic Sans MS
+          color : -1
+          fontSize : 38
+          textOpacity : 100
+          scrollSpeed : 0
+          bold : 1
+          italic : 0
+          vertical : 0
+          wrap : 0
+          scrollMode : 0
+          underline : 0
+          pointFiltering : 0
+          backgroundColor : -16777216
+          backgroundOpacity : 0
+          useOutline : 0
+          outlineColor : -16777216
+          outlineSize : 2
+          outlineOpacity : 100
+          useTextExtents : 0
+          extentWidth : 32
+          extentHeight : 32
+          align : 0
+          file : "C:\\SubAlert\\SubAlert\\Log\\Followers\\LastFollower.txt"
+          text : 
+          mode : 1
+        }
+        cx : 29
+        cy : 35
+        x : 187
+        y : 1037
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      last follower text : {
+        render : 1
+        class : TextSource
+        data : {
+          baseSizeCX : 185.269
+          baseSizeCY : 38
+          font : Comic Sans MS
+          color : -1
+          fontSize : 38
+          textOpacity : 100
+          scrollSpeed : 0
+          bold : 1
+          italic : 0
+          vertical : 0
+          wrap : 0
+          scrollMode : 0
+          underline : 0
+          pointFiltering : 0
+          backgroundColor : -16777216
+          backgroundOpacity : 0
+          useOutline : 0
+          outlineColor : -16777216
+          outlineSize : 2
+          outlineOpacity : 100
+          useTextExtents : 0
+          extentWidth : 32
+          extentHeight : 32
+          align : 0
+          file : 
+          text : "Last Follower:"
+          mode : 0
+        }
+        cx : 185
+        cy : 38
+        x : 0
+        y : 1034
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      alert window : {
+        render : 1
+        class : CLRBrowserSource
+        data : {
+          sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0IjoyMDAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHA6XC9cL3d3dy50d2l0Y2hhbGVydHMuY29tXC9hbGVydC1ib3hcL3YzXC83NEE2NDY2MzQ3M0E5MDQwNjVERiIsIlZvbHVtZSI6MCwiV2lkdGgiOjEyMDB9
+          instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+        }
+        cx : 1146
+        cy : 191
+        x : 371
+        y : 864
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      chat : {
+        render : 1
+        class : CLRBrowserSource
+        data : {
+          sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0Ijo0NTAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHBzOlwvXC93d3cubmlnaHRkZXYuY29tXC9ob3N0ZWRcL29ic2NoYXRcLz90aGVtZT1idHR2X2RhcmsmY2hhbm5lbD1raWRvZnNlcGgmZmFkZT1mYWxzZSZib3RfYWN0aXZpdHk9ZmFsc2UmcHJldmVudF9jbGlwcGluZz1mYWxzZSIsIlZvbHVtZSI6MCwiV2lkdGgiOjM1MH0=
+          instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+        }
+        cx : 431
+        cy : 555
+        x : -1
+        y : 461
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      livesplit : {
+        render : 1
+        class : WindowCaptureSource
+        data : {
+          captureType : 1
+          monitor : 0
+          window : LiveSplit
+          windowClass : WindowsForms10.Window.8.app.0.141b42a_r12_ad1
+          innerWindow : 1
+          regionCapture : 0
+          captureMouse : 1
+          captureLayered : 0
+          compatibilityMode : 0
+          usePointFiltering : 0
+          captureX : 0
+          captureY : 0
+          captureCX : 286
+          captureCY : 319
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          opacity : 100
+          gamma : 100
+        }
+        cx : 413
+        cy : 461
+        x : 0
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      snes9x game capture : {
+        render : 1
+        class : GraphicsCapture
+        data : {
+          window : "[snes9x]: Snes9X v1.53 for Windows"
+          windowClass : "Snes9X: WndClass"
+          executable : snes9x.exe
+          stretchImage : 0
+          alphaBlend : 0
+          ignoreAspect : 0
+          captureMouse : 0
+          invertMouse : 0
+          safeHook : 0
+          useHotkey : 0
+          hotkey : 123
+          gamma : 100
+        }
+        cx : 1920
+        cy : 1080
+        x : -22
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      Image : {
+        render : 1
+        class : BitmapImageSource
+        data : {
+          path : "C:\\Users\\Marc\\Pictures\\armor.png"
+          opacity : 100
+          color : -1
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          monitor : 0
+        }
+        cx : 1920
+        cy : 1080
+      }
+    }
+  }
+  begin shortly : {
+    class : Scene
+    sources : {
+      Image : {
+        render : 1
+        class : BitmapImageSource
+        data : {
+          path : "C:\\Users\\Marc\\Pictures\\begin.png"
+          opacity : 100
+          color : -1
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          monitor : 0
+        }
+        cx : 1280
+        cy : 720
+        x : 0
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+    }
+  }
+  PSX : {
+    class : Scene
+    sources : {
+      psx emu : {
+        render : 1
+        class : WindowCaptureSource
+        data : {
+          captureType : 1
+          monitor : 0
+          window : pSX v1.13
+          windowClass : pSX
+          innerWindow : 1
+          regionCapture : 0
+          captureMouse : 1
+          captureLayered : 0
+          compatibilityMode : 0
+          usePointFiltering : 0
+          captureX : 0
+          captureY : 0
+          captureCX : 908
+          captureCY : 767
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          opacity : 100
+          gamma : 100
+        }
+        cx : 1193
+        cy : 1008
+        x : 273
+        y : 18
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      twitter : {
+        render : 1
+        class : BitmapImageSource
+        data : {
+          path : "C:\\Users\\Marc\\Pictures\\twitter.png"
+          opacity : 100
+          color : -1
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          monitor : 0
+        }
+        cx : 292
+        cy : 66
+        x : 1470
+        y : 1014
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      last  follower log : {
+        render : 1
+        class : TextSource
+        data : {
+          baseSizeCX : 32
+          baseSizeCY : 38
+          font : Comic Sans MS
+          color : -1
+          fontSize : 38
+          textOpacity : 100
+          scrollSpeed : 0
+          bold : 1
+          italic : 0
+          vertical : 0
+          wrap : 0
+          scrollMode : 0
+          underline : 0
+          pointFiltering : 0
+          backgroundColor : -16777216
+          backgroundOpacity : 0
+          useOutline : 0
+          outlineColor : -16777216
+          outlineSize : 2
+          outlineOpacity : 100
+          useTextExtents : 0
+          extentWidth : 32
+          extentHeight : 32
+          align : 0
+          file : "C:\\SubAlert\\SubAlert\\Log\\Followers\\LastFollower.txt"
+          text : 
+          mode : 1
+        }
+        cx : 29
+        cy : 35
+        x : 195
+        y : 1035
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      last follower text : {
+        render : 1
+        class : TextSource
+        data : {
+          baseSizeCX : 185.269
+          baseSizeCY : 38
+          font : Comic Sans MS
+          color : -1
+          fontSize : 38
+          textOpacity : 100
+          scrollSpeed : 0
+          bold : 1
+          italic : 0
+          vertical : 0
+          wrap : 0
+          scrollMode : 0
+          underline : 0
+          pointFiltering : 0
+          backgroundColor : -16777216
+          backgroundOpacity : 0
+          useOutline : 0
+          outlineColor : -16777216
+          outlineSize : 2
+          outlineOpacity : 100
+          useTextExtents : 0
+          extentWidth : 32
+          extentHeight : 32
+          align : 0
+          file : 
+          text : "Last Follower:"
+          mode : 0
+        }
+        cx : 185
+        cy : 38
+        x : 0
+        y : 1034
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      alert window : {
+        render : 1
+        class : CLRBrowserSource
+        data : {
+          sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0IjoyMDAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHA6XC9cL3d3dy50d2l0Y2hhbGVydHMuY29tXC9hbGVydC1ib3hcL3YzXC83NEE2NDY2MzQ3M0E5MDQwNjVERiIsIlZvbHVtZSI6MCwiV2lkdGgiOjEyMDB9
+          instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+        }
+        cx : 1146
+        cy : 191
+        x : 371
+        y : 864
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      chat : {
+        render : 1
+        class : CLRBrowserSource
+        data : {
+          sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0Ijo0NTAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHBzOlwvXC93d3cubmlnaHRkZXYuY29tXC9ob3N0ZWRcL29ic2NoYXRcLz90aGVtZT1idHR2X2RhcmsmY2hhbm5lbD1raWRvZnNlcGgmZmFkZT1mYWxzZSZib3RfYWN0aXZpdHk9ZmFsc2UmcHJldmVudF9jbGlwcGluZz1mYWxzZSIsIlZvbHVtZSI6MCwiV2lkdGgiOjIwMH0=
+          instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+        }
+        cx : 288
+        cy : 649
+        x : -1
+        y : 382
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      livesplit : {
+        render : 1
+        class : WindowCaptureSource
+        data : {
+          captureType : 1
+          monitor : 0
+          window : LiveSplit
+          windowClass : WindowsForms10.Window.8.app.0.141b42a_r12_ad1
+          innerWindow : 1
+          regionCapture : 0
+          captureMouse : 1
+          captureLayered : 0
+          compatibilityMode : 0
+          usePointFiltering : 0
+          captureX : 0
+          captureY : 0
+          captureCX : 286
+          captureCY : 319
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          opacity : 100
+          gamma : 100
+        }
+        cx : 415
+        cy : 463
+        x : 0
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      snes9x : {
+        render : 1
+        class : WindowCaptureSource
+        data : {
+          captureType : 1
+          monitor : 0
+          window : Snes9X v1.53 for Windows
+          windowClass : "Snes9X: WndClass"
+          innerWindow : 1
+          regionCapture : 1
+          captureMouse : 1
+          captureLayered : 0
+          compatibilityMode : 0
+          usePointFiltering : 0
+          captureX : 31
+          captureY : 16
+          captureCX : 986
+          captureCY : 870
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          opacity : 100
+          gamma : 100
+        }
+        cx : 986
+        cy : 870
+        x : 436
+        y : 102
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      Image : {
+        render : 1
+        class : BitmapImageSource
+        data : {
+          path : "C:\\Users\\Marc\\Pictures\\armor.png"
+          opacity : 100
+          color : -1
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          monitor : 0
+        }
+        cx : 1920
+        cy : 1080
+      }
+    }
+    hotkey : 0
+  }
+  Last Remnant : {
+    class : Scene
+    sources : {
+      twitter : {
+        render : 1
+        class : BitmapImageSource
+        data : {
+          path : "C:\\Users\\Marc\\Pictures\\twitter.png"
+          opacity : 100
+          color : -1
+          useColorKey : 1
+          keyColor : -16777216
+          keySimilarity : 10
+          keyBlend : 0
+          monitor : 0
+        }
+        cx : 292
+        cy : 66
+        x : 1628
+        y : 1014
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      last  follower log : {
+        render : 1
+        class : TextSource
+        data : {
+          baseSizeCX : 32
+          baseSizeCY : 38
+          font : Comic Sans MS
+          color : -1
+          fontSize : 38
+          textOpacity : 100
+          scrollSpeed : 0
+          bold : 1
+          italic : 0
+          vertical : 0
+          wrap : 0
+          scrollMode : 0
+          underline : 0
+          pointFiltering : 0
+          backgroundColor : -16777216
+          backgroundOpacity : 0
+          useOutline : 0
+          outlineColor : -16777216
+          outlineSize : 2
+          outlineOpacity : 100
+          useTextExtents : 0
+          extentWidth : 32
+          extentHeight : 32
+          align : 0
+          file : "C:\\SubAlert\\SubAlert\\Log\\Followers\\LastFollower.txt"
+          text : 
+          mode : 1
+        }
+        cx : 29
+        cy : 35
+        x : 187
+        y : 1037
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      last follower text : {
+        render : 1
+        class : TextSource
+        data : {
+          baseSizeCX : 185.269
+          baseSizeCY : 38
+          font : Comic Sans MS
+          color : -1
+          fontSize : 38
+          textOpacity : 100
+          scrollSpeed : 0
+          bold : 1
+          italic : 0
+          vertical : 0
+          wrap : 0
+          scrollMode : 0
+          underline : 0
+          pointFiltering : 0
+          backgroundColor : -16777216
+          backgroundOpacity : 0
+          useOutline : 0
+          outlineColor : -16777216
+          outlineSize : 2
+          outlineOpacity : 100
+          useTextExtents : 0
+          extentWidth : 32
+          extentHeight : 32
+          align : 0
+          file : 
+          text : "Last Follower:"
+          mode : 0
+        }
+        cx : 185
+        cy : 38
+        x : 0
+        y : 1034
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      alert window : {
+        render : 1
+        class : CLRBrowserSource
+        data : {
+          sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0IjoyMDAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHA6XC9cL3d3dy50d2l0Y2hhbGVydHMuY29tXC9hbGVydC1ib3hcL3YzXC83NEE2NDY2MzQ3M0E5MDQwNjVERiIsIlZvbHVtZSI6MCwiV2lkdGgiOjEyMDB9
+          instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+        }
+        cx : 1146
+        cy : 191
+        x : 371
+        y : 864
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      chat : {
+        render : 1
+        class : CLRBrowserSource
+        data : {
+          sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0IjoyNTAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHBzOlwvXC93d3cubmlnaHRkZXYuY29tXC9ob3N0ZWRcL29ic2NoYXRcLz9odHRwczpcL1wvd3d3Lm5pZ2h0ZGV2LmNvbVwvaG9zdGVkXC9vYnNjaGF0XC8/aHR0cHM6XC9cL3d3dy5uaWdodGRldi5jb21cL2hvc3RlZFwvb2JzY2hhdFwvP2NoYW5uZWw9a2lkb2ZzZXBoJmZhZGU9ZmFsc2UmYm90X2FjdGl2aXR5PWZhbHNlJnByZXZlbnRfY2xpcHBpbmc9dHJ1ZSIsIlZvbHVtZSI6MCwiV2lkdGgiOjM1MH0=
+          instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+        }
+        cx : 431
+        cy : 308.333
+        x : 0
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      LR : {
+        render : 1
+        class : GraphicsCapture
+        data : {
+          window : "[TLR]: The Last Remnant"
+          windowClass : LaunchUnrealUWindowsClient
+          executable : tlr.exe
+          stretchImage : 1
+          alphaBlend : 0
+          ignoreAspect : 0
+          captureMouse : 1
+          invertMouse : 0
+          safeHook : 0
+          useHotkey : 0
+          hotkey : 123
+          gamma : 100
+        }
+        cx : 1920
+        cy : 1080
+      }
+    }
+    hotkey : 0
+  }
+  Payday2 : {
+    class : Scene
+    sources : {
+      twitter : {
+        render : 1
+        class : BitmapImageSource
+        data : {
+          path : "C:\\Users\\Marc\\Pictures\\twitter.png"
+          opacity : 100
+          color : -1
+          useColorKey : 1
+          keyColor : -16777216
+          keySimilarity : 10
+          keyBlend : 0
+          monitor : 0
+        }
+        cx : 292
+        cy : 66
+        x : 1628
+        y : 1014
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      last  follower log : {
+        render : 1
+        class : TextSource
+        data : {
+          baseSizeCX : 32
+          baseSizeCY : 38
+          font : Comic Sans MS
+          color : -1
+          fontSize : 38
+          textOpacity : 100
+          scrollSpeed : 0
+          bold : 1
+          italic : 0
+          vertical : 0
+          wrap : 0
+          scrollMode : 0
+          underline : 0
+          pointFiltering : 0
+          backgroundColor : -16777216
+          backgroundOpacity : 0
+          useOutline : 0
+          outlineColor : -16777216
+          outlineSize : 2
+          outlineOpacity : 100
+          useTextExtents : 0
+          extentWidth : 32
+          extentHeight : 32
+          align : 0
+          file : "C:\\SubAlert\\SubAlert\\Log\\Followers\\LastFollower.txt"
+          text : 
+          mode : 1
+        }
+        cx : 29
+        cy : 35
+        x : 187
+        y : 1037
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      last follower text : {
+        render : 1
+        class : TextSource
+        data : {
+          baseSizeCX : 185.269
+          baseSizeCY : 38
+          font : Comic Sans MS
+          color : -1
+          fontSize : 38
+          textOpacity : 100
+          scrollSpeed : 0
+          bold : 1
+          italic : 0
+          vertical : 0
+          wrap : 0
+          scrollMode : 0
+          underline : 0
+          pointFiltering : 0
+          backgroundColor : -16777216
+          backgroundOpacity : 0
+          useOutline : 0
+          outlineColor : -16777216
+          outlineSize : 2
+          outlineOpacity : 100
+          useTextExtents : 0
+          extentWidth : 32
+          extentHeight : 32
+          align : 0
+          file : 
+          text : "Last Follower:"
+          mode : 0
+        }
+        cx : 185
+        cy : 38
+        x : 0
+        y : 1034
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      alert window : {
+        render : 1
+        class : CLRBrowserSource
+        data : {
+          sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0IjoyMDAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHA6XC9cL3d3dy50d2l0Y2hhbGVydHMuY29tXC9hbGVydC1ib3hcL3YzXC83NEE2NDY2MzQ3M0E5MDQwNjVERiIsIlZvbHVtZSI6MCwiV2lkdGgiOjEyMDB9
+          instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+        }
+        cx : 1146
+        cy : 191
+        x : 371
+        y : 864
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      chat : {
+        render : 1
+        class : CLRBrowserSource
+        data : {
+          sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0IjoyNTAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHBzOlwvXC93d3cubmlnaHRkZXYuY29tXC9ob3N0ZWRcL29ic2NoYXRcLz9odHRwczpcL1wvd3d3Lm5pZ2h0ZGV2LmNvbVwvaG9zdGVkXC9vYnNjaGF0XC8/aHR0cHM6XC9cL3d3dy5uaWdodGRldi5jb21cL2hvc3RlZFwvb2JzY2hhdFwvP2NoYW5uZWw9a2lkb2ZzZXBoJmZhZGU9ZmFsc2UmYm90X2FjdGl2aXR5PWZhbHNlJnByZXZlbnRfY2xpcHBpbmc9dHJ1ZSIsIlZvbHVtZSI6MCwiV2lkdGgiOjM1MH0=
+          instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+        }
+        cx : 431
+        cy : 308.333
+        x : 0
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      LR : {
+        render : 1
+        class : GraphicsCapture
+        data : {
+          window : "[payday2_win32_release]: PAYDAY 2"
+          windowClass : diesel win32
+          executable : payday2_win32_release.exe
+          stretchImage : 1
+          alphaBlend : 0
+          ignoreAspect : 0
+          captureMouse : 1
+          invertMouse : 0
+          safeHook : 0
+          useHotkey : 0
+          hotkey : 123
+          gamma : 100
+        }
+        cx : 1920
+        cy : 1080
+      }
+    }
+    hotkey : 0
+  }
+  Scene 2 : {
+    class : Scene
+    sources : {
+      alert window 1 : {
+        render : 1
+        class : CLRBrowserSource
+        data : {
+          sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0IjoyMDAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHA6XC9cL3d3dy50d2l0Y2hhbGVydHMuY29tXC9hbGVydC1ib3hcL3YzXC83NEE2NDY2MzQ3M0E5MDQwNjVERiIsIlZvbHVtZSI6MCwiV2lkdGgiOjEyMDB9
+          instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+        }
+        cx : 828
+        cy : 138
+        x : 227
+        y : 571
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      twitter : {
+        render : 1
+        class : BitmapImageSource
+        data : {
+          path : "C:\\Users\\Marc\\Pictures\\twitter.png"
+          opacity : 100
+          color : -1
+          useColorKey : 1
+          keyColor : -16777216
+          keySimilarity : 10
+          keyBlend : 0
+          monitor : 0
+        }
+        cx : 261
+        cy : 57
+        x : 1019
+        y : 663
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      last  follower log : {
+        render : 1
+        class : TextSource
+        data : {
+          baseSizeCX : 148.425
+          baseSizeCY : 32
+          font : Comic Sans MS
+          color : -1
+          fontSize : 30
+          textOpacity : 100
+          scrollSpeed : 0
+          bold : 1
+          italic : 0
+          vertical : 0
+          wrap : 0
+          scrollMode : 0
+          underline : 0
+          pointFiltering : 0
+          backgroundColor : -16777216
+          backgroundOpacity : 0
+          useOutline : 0
+          outlineColor : -16777216
+          outlineSize : 2
+          outlineOpacity : 100
+          useTextExtents : 0
+          extentWidth : 32
+          extentHeight : 32
+          align : 0
+          file : "C:\\SubAlert\\SubAlert\\Log\\Followers\\LastFollower.txt"
+          text : 
+          mode : 1
+        }
+        cx : 135
+        cy : 29
+        x : 157
+        y : 691
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      last follower text : {
+        render : 1
+        class : TextSource
+        data : {
+          baseSizeCX : 150.96
+          baseSizeCY : 32
+          font : Comic Sans MS
+          color : -1
+          fontSize : 31
+          textOpacity : 100
+          scrollSpeed : 0
+          bold : 1
+          italic : 0
+          vertical : 0
+          wrap : 0
+          scrollMode : 0
+          underline : 0
+          pointFiltering : 0
+          backgroundColor : -16777216
+          backgroundOpacity : 0
+          useOutline : 0
+          outlineColor : -16777216
+          outlineSize : 2
+          outlineOpacity : 100
+          useTextExtents : 0
+          extentWidth : 32
+          extentHeight : 32
+          align : 0
+          file : 
+          text : "Last Follower:"
+          mode : 0
+        }
+        cx : 151
+        cy : 32
+        x : 0
+        y : 688
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      chat : {
+        render : 1
+        class : CLRBrowserSource
+        data : {
+          sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0Ijo0NTAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHBzOlwvXC93d3cubmlnaHRkZXYuY29tXC9ob3N0ZWRcL29ic2NoYXRcLz90aGVtZT1idHR2X2RhcmsmY2hhbm5lbD1raWRvZnNlcGgmZmFkZT1mYWxzZSZib3RfYWN0aXZpdHk9ZmFsc2UmcHJldmVudF9jbGlwcGluZz1mYWxzZSIsIlZvbHVtZSI6MCwiV2lkdGgiOjM1MH0=
+          instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+        }
+        cx : 246
+        cy : 317
+        x : 0
+        y : 286
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      snes9x game capture : {
+        render : 1
+        class : GraphicsCapture
+        data : {
+          window : "[snes9x]: Snes9X v1.53 for Windows"
+          windowClass : "Snes9X: WndClass"
+          executable : snes9x.exe
+          stretchImage : 0
+          alphaBlend : 0
+          ignoreAspect : 0
+          captureMouse : 0
+          invertMouse : 0
+          safeHook : 0
+          useHotkey : 0
+          hotkey : 123
+          gamma : 100
+        }
+        cx : 947
+        cy : 533
+        x : 158
+        y : 71
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      livesplit : {
+        render : 1
+        class : WindowCaptureSource
+        data : {
+          captureType : 1
+          monitor : 0
+          window : LiveSplit
+          windowClass : WindowsForms10.Window.8.app.0.141b42a_r12_ad1
+          innerWindow : 1
+          regionCapture : 0
+          captureMouse : 1
+          captureLayered : 0
+          compatibilityMode : 0
+          usePointFiltering : 0
+          captureX : 0
+          captureY : 0
+          captureCX : 286
+          captureCY : 339
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          opacity : 100
+          gamma : 100
+        }
+        cx : 241
+        cy : 285
+        x : 0
+        y : 0
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      Image : {
+        render : 1
+        class : BitmapImageSource
+        data : {
+          path : "C:\\Users\\Marc\\Pictures\\armor.png"
+          opacity : 100
+          color : -1
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          monitor : 0
+        }
+        cx : 1090
+        cy : 613
+        x : 185
+        y : 57
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+    }
+    hotkey : 0
+  }
+  ff7 : {
+    class : Scene
+    sources : {
+      psxfin : {
+        render : 1
+        class : WindowCaptureSource
+        data : {
+          captureType : 1
+          monitor : 0
+          window : pSX v1.13
+          windowClass : pSX
+          innerWindow : 1
+          regionCapture : 0
+          captureMouse : 1
+          captureLayered : 0
+          compatibilityMode : 0
+          usePointFiltering : 0
+          captureX : 0
+          captureY : 0
+          captureCX : 640
+          captureCY : 480
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          opacity : 100
+          gamma : 100
+        }
+        cx : 925
+        cy : 694
+        x : 10
+        y : 11
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      livesplit : {
+        render : 1
+        class : WindowCaptureSource
+        data : {
+          captureType : 1
+          monitor : 0
+          window : LiveSplit
+          windowClass : WindowsForms10.Window.8.app.0.141b42a_r12_ad1
+          innerWindow : 1
+          regionCapture : 0
+          captureMouse : 1
+          captureLayered : 0
+          compatibilityMode : 0
+          usePointFiltering : 0
+          captureX : 0
+          captureY : 0
+          captureCX : 286
+          captureCY : 169
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          opacity : 100
+          gamma : 100
+        }
+        cx : 286
+        cy : 169
+        x : 961
+        y : 243
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      chat : {
+        render : 1
+        class : CLRBrowserSource
+        data : {
+          sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0IjoyNTAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHBzOlwvXC93d3cubmlnaHRkZXYuY29tXC9ob3N0ZWRcL29ic2NoYXRcLz90aGVtZT1idHR2X2RhcmsmY2hhbm5lbD1raWRvZnNlcGgmZmFkZT1mYWxzZSZib3RfYWN0aXZpdHk9ZmFsc2UmcHJldmVudF9jbGlwcGluZz1mYWxzZSIsIlZvbHVtZSI6MCwiV2lkdGgiOjM4MH0=
+          instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+        }
+        cx : 336.572
+        cy : 221
+        x : 940
+        y : 6
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      seven label : {
+        render : 1
+        class : TextSource
+        data : {
+          baseSizeCX : 130.508
+          baseSizeCY : 32
+          font : Comic Sans MS
+          color : -1
+          fontSize : 29
+          textOpacity : 100
+          scrollSpeed : 0
+          bold : 1
+          italic : 0
+          vertical : 0
+          wrap : 0
+          scrollMode : 0
+          underline : 0
+          pointFiltering : 0
+          backgroundColor : -16777216
+          backgroundOpacity : 0
+          useOutline : 0
+          outlineColor : -16777216
+          outlineSize : 2
+          outlineOpacity : 100
+          useTextExtents : 0
+          extentWidth : 32
+          extentHeight : 32
+          align : 0
+          file : 
+          text : Sevens1ns PB
+          mode : 0
+        }
+        cx : 200
+        cy : 49
+        x : 1008
+        y : 412
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      sevens1ns pb : {
+        render : 1
+        class : WindowCaptureSource
+        data : {
+          captureType : 1
+          monitor : 0
+          window : Final Fantasy VII - Any% No Slots - PSX in 7h 46m 59s by SevenS1ns - speedrun.com - Mozilla Firefox
+          windowClass : MozillaWindowClass
+          innerWindow : 1
+          regionCapture : 1
+          captureMouse : 1
+          captureLayered : 0
+          compatibilityMode : 0
+          usePointFiltering : 0
+          captureX : 92
+          captureY : 185
+          captureCX : 462
+          captureCY : 343
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          opacity : 100
+          gamma : 100
+        }
+        cx : 322
+        cy : 239
+        x : 945
+        y : 459
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+      background : {
+        render : 1
+        class : BitmapImageSource
+        data : {
+          path : "C:\\Users\\Marc\\Documents\\black.png"
+          opacity : 100
+          color : -1
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          monitor : 0
+        }
+        cx : 1280
+        cy : 720
+      }
+    }
+  }
+  4jf : {
+    class : Scene
+  }
+  sms : {
+    class : Scene
+    sources : {
+      Window Capture : {
+        render : 1
+        class : WindowCaptureSource
+        data : {
+          captureType : 1
+          monitor : 0
+          window : Regen v0.97 - Running Phantasy Star (USA, Europe) (v1.3)
+          windowClass : Regen
+          innerWindow : 1
+          regionCapture : 0
+          captureMouse : 1
+          captureLayered : 0
+          compatibilityMode : 0
+          usePointFiltering : 0
+          captureX : 0
+          captureY : 0
+          captureCX : 650
+          captureCY : 488
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          opacity : 100
+          gamma : 100
+        }
+        cx : 917
+        cy : 688
+        x : 309
+        y : 22
+        crop.left : 0
+        crop.top : 0
+        crop.right : 0
+        crop.bottom : 0
+      }
+    }
+  }
+}
